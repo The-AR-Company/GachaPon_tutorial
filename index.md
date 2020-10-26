@@ -1,3 +1,4 @@
+<style>code {margin: 0!important; padding: 0!important;}</style>
 ## _How to make a Gacha-pon filter_
 
 ### Introduction
@@ -126,7 +127,7 @@ Resize it, position it and color it depending on your preference but for now, le
 
 Let’s animate the Knob so that when the user opens his mouth, the knob will rotate for a couple of times first before the toy comes out. 
 
-To do that, select the face tracker in the scene panel then in the inspector panel, under interactions, click create and a drop down menu will appear. There are many interactions to choose from but for this project, let’s use “Mouth Open” since the toy will come out of the mouth.
+To do that, select the face tracker in the scene panel then in the inspector panel, under interactions, click create and a drop down menu will appear. There are many interactions to choose from but for this project, let’s use `Mouth Open` since the toy will come out of the mouth.
 Upon selecting it, the Patch Editor will open up along with the patches created for the face tracker. Let’s add the patches that we will need to animate the knob. Go to the bottom of the patch editor and click `Add` Patch. 
 
 Search  and import the following patches:
@@ -197,7 +198,7 @@ Let’s add another set of patches. Let’s get 1 `Random` patch, 5 `Round` patc
 <img src="./images/11.png" width="600"/>
 <img src="./images/12.png" width="600"/>
 
-The trick here is that everytime Mouth open is triggered, Gachapons 1 to 5 will all activate but only 1 will be visible. On the next part, we’ll be animating Gachapon 1 first so it will be a little difficult to test it if the gachapons are randomized. To fix that, let’s change the End Range in the `Random` patch from 4 to 0 in the meantime so it will only get Gachapon 1 every time you open your mouth to view the animation you’ve done so far. Remember to change it back again later.
+The trick here is that everytime `Mouth open` is triggered, Gachapons 1 to 5 will all activate but only 1 will be visible. On the next part, we’ll be animating Gachapon 1 first so it will be a little difficult to test it if the gachapons are randomized. To fix that, let’s change the End Range in the `Random` patch from 4 to 0 in the meantime so it will only get Gachapon 1 every time you open your mouth to view the animation you’ve done so far. Remember to change it back again later.
 
 Now let’s go to the animation part. What we’ll want to do is animate the Gachapons to come from inside the mouth to outside while still closed then it will open up and reveal the toy inside afterwards. We should make the capsule small enough to fit the mouth and gradually scale up so we can have a better look at the toy. 
 
