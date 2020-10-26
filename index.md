@@ -285,3 +285,8 @@ The patch created should look like this:
 <img src="./images/26.png" width="600"/>
 
 Now, when the user opens your effect, the instruction will show up for 5 seconds before it disappears. To prolong it, just change the number inside the second input in the `Less Than` patch. 
+
+
+## Complete!
+
+Woohoo! Now you have a Gachapon effect! You can take this same approach to make other randomizer effects. It could be a lottery ball head, or a Pokemon vending machine, or some kind of dice game... The world is your oyster!
